@@ -89,5 +89,78 @@ table {
 }
 
 .list-icons {
-    display: inline;
+    display: inline-block;
 }
+
+.li-box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px grey solid;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: #556270;
+    margin-right: 10px;
+}
+
+.aside-1 {
+    display: inline-block;
+    width: 340px;
+    height: 1000px;
+    background: #4ECDC4;
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.aside-1 a {
+    display: inline-block;
+}
+
+/* aside */
+
+.aside-1-div {
+    border: 2px solid grey;
+    width: 330px;
+    height: 500px;
+}
+
+.aside-2-div {
+    border: 2px solid grey;
+    width: 330px;
+    height: 220px;
+}
+
+/* images */
+
+.aside-1-div img {
+    display: inline-block;
+    width: 320px;
+    height: 450px;
+    box-sizing: border-box;
+
+}
+
+.aside-1-div a {
+    padding: 20px;
+}
+
+.aside-2-div img {
+    border: 2px solid grey;
+    width: 330px;
+    height: 220px;
+}
+
+.icon-tag {
+    margin-top: 15px;
+    
+}
+
+.para p {
+    margin-bottom: 20px;
+}
+
+.pic-section {
+    margin-top: 50px;
+    display: inline-block;
+}
+
