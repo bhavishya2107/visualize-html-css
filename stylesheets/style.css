@@ -90,6 +90,7 @@ table {
 
 .list-icons {
     display: inline-block;
+    margin-bottom: 20px;
 }
 
 .li-box {
@@ -103,32 +104,7 @@ table {
     margin-right: 10px;
 }
 
-.aside-1 {
-    display: inline-block;
-    width: 340px;
-    height: 1000px;
-    background: #4ECDC4;
-    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
-.aside-1 a {
-    display: inline-block;
-}
-
-/* aside */
-
-.aside-1-div {
-    border: 2px solid grey;
-    width: 330px;
-    height: 500px;
-}
-
-.aside-2-div {
-    border: 2px solid grey;
-    width: 330px;
-    height: 220px;
-}
 
 /* images */
 
@@ -163,4 +139,47 @@ table {
     margin-top: 50px;
     display: inline-block;
 }
+
+.tall-box {
+    width: 350px;
+    height: 550px;
+    border: 10px darkgrey solid;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+
+h3 {
+    font-size: 24px;
+    /* font-weight: 700; */
+    color:white;
+    font-weight: 100;
+    margin-top: 5px;
+
+}
+
+img {
+    width: 350px;
+    height: 500px;
+}
+
+hr{
+    width: 250px;
+    color: grey;
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+
+/* footer */
+
+footer p {
+    margin-bottom: 100px;
+    color: darkslategrey;
+}
+
+
+
+
 
